@@ -31,7 +31,7 @@ for (let elem of elems){
 
 function animLable(elem, value, deep, interval){
     let max_deep = deep;
-
+}
     function intervalRecursion(elem, value, deep, interval){
         let current_value = Math.round(value / max_deep * (max_deep - deep));
         elem.innerHTML = current_value.toLocaleString('eng')
